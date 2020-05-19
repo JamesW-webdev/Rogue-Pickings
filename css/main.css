@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+/* ----- GRID ----- */
+
+.full-width {
+    width: 1205px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* ----- HEADER ----- */
+
+header nav ul li {
+    font-weight: 700;
+    color: #77a466;
+    font-size: 14px;
+    text-transform: uppercase;
+    display:inline-block;
+    padding-top: 50px;
+    padding-right: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+header h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+/* ----- TOP ----- */
+
+#top h2 {
+    color: #77a466;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 35px;
+}
+
+#top p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 1180px;
+    padding-bottom: 10px;
+}
+
+/* ----- BOTTOM ----- */
+
+#bottom {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+#specials, #reviews {
+    border-right: 1px solid #dedbdc;
+}
+
+#specials h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+#specials ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#specials ul li {
+    line-height: 35px;
+}
+
+#specials ul li a {
+    text-decoration: none;
+    color: #77a466;
+}
+
+#specials a {
+    font-size: 16px;
+}
+
+#reviews h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#reviews p {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 32px;
+    line-height: 24px;
+}
+
+#contact h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+#contact p {
+    font-size: 16px;
+    padding-left: 30px;
+    line-height: 9px;
+}
+
+/* ----- FOOTER ----- */
+
+footer p {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer span {
+    font-family: 'Galada', cursive;
+    text-transform: none;
+    color: #77a466;
+    font-size: 16px;
+}
